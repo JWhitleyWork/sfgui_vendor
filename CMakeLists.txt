@@ -12,6 +12,7 @@ ament_vendor(${PROJECT_NAME}
   VCS_VERSION 83471599284b2a23027b9ab4514684a6eeb08a19
   CMAKE_ARGS
     -DCMAKE_BUILD_TYPE=RelWithDebInfo
+  GLOBAL_HOOK
 )
 
 ament_auto_package()
